@@ -1,7 +1,31 @@
-// 作者：xianyu.wiki
-// 添加此插件后，在页面内执行Tab按键操作时，不会让Tab聚焦到浏览器上。
-// 另外，页面内其他HTML元素的tabindex的值只能为1~998。如果需要更多大的tabindex值（我相信没有人需要），则修改插件中maxTableIndex的值即可。
-// 在HTML页面的底部添加<script src="{你的目录名字}/TabIndexHolder.js"></script>即可。
+/*
+The MIT License (MIT)
+
+Copyright (c) 2016 xianyuwiki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+作者
+   xianyu.wiki
+说明
+   http://xianyu.wiki/p/TabIndexHolder
+*/
 
 ;(function(){
    var maxTableIndex = 999;
